@@ -1,0 +1,58 @@
+body {
+  width: 60%;
+  max-width: 1500px;
+  margin-left: 20%;
+  background: #32CD32;
+}
+
+div .chessTable {
+  width: 1200px;
+  height: 800px;
+}
+
+table {
+  max-width: 1200px;
+  border-style: solid;
+  border-color: #B8860B;
+}
+
+th {
+  width: 80px;
+  color: #A52A2A;
+  border-style: none;
+  text-align: center;
+}
+
+td {
+  width: 60px;
+  height: 60px;
+  text-align: center;
+}
+
+td.white {
+  background-color: #FFFFFF;
+}
+
+td.black {
+  background-color: #696969;
+}
+
+span {
+  padding: 5px;
+  border-radius: 2px;
+  background-color: #3CB371;
+}
+
+span.white {
+  color: white;
+}
+
+span.black {
+  color: black;
+}
+
+img {
+  width: 20px;
+  height: 20px;
+  vertical-align: middle;
+}
